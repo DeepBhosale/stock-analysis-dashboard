@@ -1,4 +1,4 @@
-# AI Stock Analysis Dashboard
+# Stock Analysis Dashboard
 
 This project now runs as a React + Vite frontend with a FastAPI backend.
 

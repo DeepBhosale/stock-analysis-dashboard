@@ -1,0 +1,13 @@
+.venv/
+.agents/
+backend/.venv-backend/
+__pycache__/
+*.pyc
+.streamlit/
+.yf_cache/
+data/
+*.csv
+node_modules/
+frontend/dist/
+*.log
+*.zip

@@ -64,7 +64,7 @@ def fetch_yahoo_chart_data(ticker: str, period: str, interval: str) -> pd.DataFr
 
         data = pd.DataFrame(
             {
-                "Date": pd.to_datetime(timestamps, unit="s").date,
+                "Date": pd.to_datetime(timestamps, unit="s"),
                 "Open": quote_data.get("open"),
                 "High": quote_data.get("high"),
                 "Low": quote_data.get("low"),
